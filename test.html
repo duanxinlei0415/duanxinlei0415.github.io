@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>挑战题</title>
+        <script src="http://libs.baidu.com/jquery/1.8.2/jquery.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <ul id="list"></ul>
+        <script>
+            /*let str = 'return ' + '`Hello ${name}!`';
+            let func = new Function('name', str);
+            console.log(func('Jack'))// "Hello Jack!"
+
+            var a = 5;
+            var b = 10;
+
+            function tag(s, v1, v2) {
+              console.log(s[0]);
+              console.log(s[1]);
+              console.log(s[2]);
+              console.log(v1);
+              console.log(v2);
+            }
+
+            tag`Hello ${ a + b } world ${ a * b}`;
+
+            var total = 30;
+            var msg = passthru`The total is ${total} (${total*1.05} with tax)`;
+
+            function passthru(literals) {
+              var result = '';
+              var i = 0;
+
+              while (i < literals.length) {
+                result += literals[i++];
+                if (i < arguments.length) {
+                  result += arguments[i];
+                }
+              }
+
+              return result;
+            }
+
+            console.log(msg)
+
+            /^\uD83D/.test('\uD83D\uDC2A')*/
+            a={length: 5, 3: 1};
+            console.log(a)
+            console.log(a.length);
+            console.log(a[0]);
+            console.log(a[3]);
+            [].copyWithin.call(a, 0, 3); 
+            console.log(a[0]);
+            console.log(a[3]);
+        </script>
+    </body>
+</html>
